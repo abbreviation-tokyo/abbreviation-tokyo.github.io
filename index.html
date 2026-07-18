@@ -48,6 +48,18 @@ section { margin-top: 40px; }
 <p>Photos and videos selected or created within the App are processed on the user's device and are not uploaded to servers operated by the developer.</p>
 <p>The App uses Google AdMob to display advertisements. AdMob may collect and process certain information for advertising, analytics, and fraud prevention purposes in accordance with Google's policies.</p>
 <p>For information about how Google handles data, please refer to Google's Privacy Policy:<br>https://policies.google.com/privacy</p>
+
+<h3>Age Selection and Ad Configuration</h3>
+<p>When the App is launched for the first time, the user is asked to select their birth year. This value is stored locally on the device only and is never transmitted to the developer or to any third party.</p>
+<p>The birth year is used solely to configure how ads are requested from Google AdMob:</p>
+<ul>
+<li><strong>Users under 13</strong>: ad requests are tagged as child-directed, and only non-personalized ads are requested. Apple's App Tracking Transparency prompt is not shown.</li>
+<li><strong>Users aged 13 to 17</strong>: ad requests are tagged as "under the age of consent," and only non-personalized ads are requested. Apple's App Tracking Transparency prompt is not shown.</li>
+<li><strong>Users 18 and older</strong>: Apple's App Tracking Transparency prompt is shown. You may accept or decline, and you may change this choice later in the iOS Settings app. If tracking is declined, only non-personalized ads will be shown; the App remains fully functional in all other respects.</li>
+</ul>
+<p>The age category is recalculated from the stored birth year each time the App is launched, so users move into the appropriate category automatically as time passes.</p>
+<p>Uninstalling the App clears the stored birth year, and the age selection screen will appear again on the next install.</p>
+
 <p>The developer does not sell, rent, or otherwise share personal information with third parties.</p>
 </section>
 
@@ -60,7 +72,7 @@ section { margin-top: 40px; }
 <section>
 <h2>Changes to This Policy</h2>
 <p>This Terms of Use and Privacy Policy may be updated from time to time. Any changes will be posted on this page.</p>
-<p>Last updated: July 2026</p>
+<p>Last updated: July 18, 2026</p>
 </section>
 
 </body>
